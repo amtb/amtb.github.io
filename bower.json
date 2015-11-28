@@ -1,0 +1,15 @@
+{
+  "name": "cv",
+  "description": "cv online",
+  "version": "0.0.0",
+  "homepage": "https://amtb.github.io",
+  "license": "AlphaBetaLicences",
+  "private": true,
+  "dependencies": {
+    "angular": "1.4.x",
+    "angular-animate": "1.4.x",
+    "angular-aria" : "1.4.x",
+    "angular-route": "1.4.x",
+    "angular-material": "0.9.4"
+  }
+}

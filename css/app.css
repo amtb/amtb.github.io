@@ -4,8 +4,6 @@
   margin: inherit;
 }
 
-md-sidenav.md-locked-open {
-  width: 150px !important;
-  min-width: 150px !important;
-  max-width: 150px !important;
+.md-card-image {
+	width: 200px;
 }
