@@ -1,6 +1,6 @@
 var app = angular.module('ResumeApp', ['ngRoute', 'ngMaterial']);
 
-app.config(function($routeProvider){
+app.config(function($routeProvider, $mdThemingProvider){
 	$routeProvider
 		.when('/education', {
 			templateUrl: 'views/education.html',
@@ -9,7 +9,15 @@ app.config(function($routeProvider){
 		.when('/workexperience', {
 			templateUrl: 'views/workexperience.html',
 			controller: 'AppCtrl'
+		})
+		.when('/', {
+			templateUrl: 'views/about.html',
+			controller: 'AboutCtrl'
 		});
+
+	$mdThemingProvider.theme('default')
+		.primaryPalette('teal');
+		//.accentPalette('orange');
 });
 
 app.controller('AppCtrl', ['$scope', '$location', '$mdSidenav', function($scope, $location, $mdSidenav){

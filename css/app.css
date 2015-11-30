@@ -1,7 +1,13 @@
+body{
+	/*font-family: 'Noto Sans', sans-serif;
+	font-family: 'Slabo 27px', serif;*/
+	font-family: 'PT Sans', sans-serif;
+}
+
 .md-toolbar-tools h1 {
-  font-size: inherit;
-  font-weight: inherit;
-  margin: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	margin: inherit;
 }
 
 .md-card-image {
