@@ -13,9 +13,10 @@ angular.module('ResumeApp')
 		logo: '/assets/paulsab.png',
 		url: 'www.univ-tlse3.fr'
 	},{
-		name: 'Université Toulouse III - Paul Sabatier',
-		degree: "1st & 2nd year of Bachelor of Science in Computer Science",
-		years: "2008-2010",
+		name: 'Lycée Saint Georges',
+		location: 'Conakry - Guinea',
+		degree: "High School Diploma",
+		years: "2007",
 		logo: '/assets/paulsab.png',
 		url: 'www.univ-tlse3.fr'
 	}];
